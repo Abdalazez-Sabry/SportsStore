@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+        "projectName": "SportsStore.Tests",
+        "projectPath": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+        "packagesPath": "C:\\Users\\abdalazez sabry\\.nuget\\packages\\",
+        "outputPath": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abdalazez sabry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {
+                "projectPath": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectName": "SportsStore",
+        "projectPath": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "packagesPath": "C:\\Users\\abdalazez sabry\\.nuget\\packages\\",
+        "outputPath": "D:\\EDU\\Projects\\Web\\learning\\dotnet\\Pro ASP.NET Core 7\\SportsStore\\SportsSln\\SportsStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abdalazez sabry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
